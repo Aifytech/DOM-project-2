@@ -1,4 +1,4 @@
-function getRandomHexColor() {
+function getRandomColor() {
   const hexChars = '01234567890ABCDEF';
   let color = '#';
   for (let i = 0; i < 6; i++){
@@ -11,7 +11,7 @@ function getRandomHexColor() {
 document.addEventListener('DOMContentLoaded', () => {
   const changeColorBtn = document.getElementById('change-color-btn');
   changeColorBtn.addEventListener('click', () => {
-  document.getElementById('color-box').style.backgroundColor = getRandomHexColor();
+  document.getElementById('color-box').style.backgroundColor = getRandomColor();
   }); 
 });
 
