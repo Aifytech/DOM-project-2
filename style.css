@@ -1,0 +1,46 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+#color-box{
+  width: 400px;
+  height: 200px;
+  background-color: aquamarine;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  border-radius: 5px;
+}
+
+.btn-div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 80px;
+}
+
+#change-color-btn{
+  padding: 10px 14px;
+  border: solid 2px aquamarine;
+  background-color: aliceblue;
+  border-radius: 50px;
+  font-size: 18px;
+  font-weight: 600;
+  box-shadow: 3px 3px #d4f3e8;
+  transition: opacity 0.15s;
+}
+
+#change-color-btn:hover{
+  background-color: aquamarine;
+  border: aliceblue;
+}
+
+
